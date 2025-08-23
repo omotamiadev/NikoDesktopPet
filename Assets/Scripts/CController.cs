@@ -36,10 +36,12 @@ public class CController : MonoBehaviour
 
     private bool isManualControl = true;
     private Coroutine randomMovementCoroutine;
-
+    private BoxCollider2D boxCollider;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        boxCollider = GetComponent<BoxCollider2D>();
+
         if (currentCharacter == null && character0 != null)
         {
             Swap(character0);
@@ -152,6 +154,11 @@ public class CController : MonoBehaviour
         currentCharacter = data;
         animationTimer = 0f;
         animationFrame = 0;
+        if (boxCollider != null)
+        {
+            boxCollider.size = data.colliderSize;
+            boxCollider.offset = data.colliderOffset;
+        }
         DirectionalAnimationSet animSet = GetDirectionSetFromVector(lastNonZeroDirection);
         spriteRenderer.sprite = animSet?.idle ?? null;
     }

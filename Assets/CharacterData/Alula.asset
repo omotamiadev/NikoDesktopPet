@@ -37,3 +37,5 @@ MonoBehaviour:
     - {fileID: 760146360, guid: 71b3064755696ba41b642c801f5f1fa8, type: 3}
     - {fileID: -94046667, guid: 71b3064755696ba41b642c801f5f1fa8, type: 3}
     - {fileID: 429932357, guid: 71b3064755696ba41b642c801f5f1fa8, type: 3}
+  colliderSize: {x: 1, y: 1}
+  colliderOffset: {x: 0, y: 0}
