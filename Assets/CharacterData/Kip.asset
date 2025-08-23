@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c24d1eb828e8542b4d202f06bd9664, type: 3}
+  m_Name: Kip
+  m_EditorClassIdentifier: 
+  characterName: Kip
+  up:
+    idle: {fileID: -91638647, guid: ae1b44c514f6fd0479bb2eb30d6a63ed, type: 3}
+    walkCycle:
+    - {fileID: -1236162040, guid: ae1b44c514f6fd0479bb2eb30d6a63ed, type: 3}
+    - {fileID: 364351603, guid: ae1b44c514f6fd0479bb2eb30d6a63ed, type: 3}
+    - {fileID: -600857096, guid: ae1b44c514f6fd0479bb2eb30d6a63ed, type: 3}
+  down:
+    idle: {fileID: -1551469228, guid: ae1b44c514f6fd0479bb2eb30d6a63ed, type: 3}
+    walkCycle:
+    - {fileID: -1910892228, guid: ae1b44c514f6fd0479bb2eb30d6a63ed, type: 3}
+    - {fileID: 506751728, guid: ae1b44c514f6fd0479bb2eb30d6a63ed, type: 3}
+    - {fileID: 1214330486, guid: ae1b44c514f6fd0479bb2eb30d6a63ed, type: 3}
+  left:
+    idle: {fileID: 232927717, guid: ae1b44c514f6fd0479bb2eb30d6a63ed, type: 3}
+    walkCycle:
+    - {fileID: 1391875858, guid: ae1b44c514f6fd0479bb2eb30d6a63ed, type: 3}
+    - {fileID: -250159778, guid: ae1b44c514f6fd0479bb2eb30d6a63ed, type: 3}
+    - {fileID: -1098249583, guid: ae1b44c514f6fd0479bb2eb30d6a63ed, type: 3}
+  right:
+    idle: {fileID: -1220332089, guid: ae1b44c514f6fd0479bb2eb30d6a63ed, type: 3}
+    walkCycle:
+    - {fileID: 1211936061, guid: ae1b44c514f6fd0479bb2eb30d6a63ed, type: 3}
+    - {fileID: -294292653, guid: ae1b44c514f6fd0479bb2eb30d6a63ed, type: 3}
+    - {fileID: -1164657537, guid: ae1b44c514f6fd0479bb2eb30d6a63ed, type: 3}

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c24d1eb828e8542b4d202f06bd9664, type: 3}
+  m_Name: Rue
+  m_EditorClassIdentifier: 
+  characterName: Rue
+  up:
+    idle: {fileID: 420808245, guid: 22247b79f7d3e194bace90a5ca845ef7, type: 3}
+    walkCycle:
+    - {fileID: 276757905, guid: 22247b79f7d3e194bace90a5ca845ef7, type: 3}
+    - {fileID: -320211239, guid: 22247b79f7d3e194bace90a5ca845ef7, type: 3}
+    - {fileID: -432372055, guid: 22247b79f7d3e194bace90a5ca845ef7, type: 3}
+  down:
+    idle: {fileID: -2066428956, guid: 22247b79f7d3e194bace90a5ca845ef7, type: 3}
+    walkCycle:
+    - {fileID: -930722254, guid: 22247b79f7d3e194bace90a5ca845ef7, type: 3}
+    - {fileID: -264314609, guid: 22247b79f7d3e194bace90a5ca845ef7, type: 3}
+    - {fileID: -1055827646, guid: 22247b79f7d3e194bace90a5ca845ef7, type: 3}
+  left:
+    idle: {fileID: 450350560, guid: 22247b79f7d3e194bace90a5ca845ef7, type: 3}
+    walkCycle:
+    - {fileID: 142599272, guid: 22247b79f7d3e194bace90a5ca845ef7, type: 3}
+    - {fileID: 260666949, guid: 22247b79f7d3e194bace90a5ca845ef7, type: 3}
+    - {fileID: 665368020, guid: 22247b79f7d3e194bace90a5ca845ef7, type: 3}
+  right:
+    idle: {fileID: 1418685675, guid: 22247b79f7d3e194bace90a5ca845ef7, type: 3}
+    walkCycle:
+    - {fileID: 1855649519, guid: 22247b79f7d3e194bace90a5ca845ef7, type: 3}
+    - {fileID: -970925156, guid: 22247b79f7d3e194bace90a5ca845ef7, type: 3}
+    - {fileID: -288154467, guid: 22247b79f7d3e194bace90a5ca845ef7, type: 3}

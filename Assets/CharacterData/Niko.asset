@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c24d1eb828e8542b4d202f06bd9664, type: 3}
+  m_Name: Niko
+  m_EditorClassIdentifier: 
+  characterName: Niko
+  up:
+    idle: {fileID: 578535836, guid: cefe9c0ec107ea349a7aa02a1f387104, type: 3}
+    walkCycle:
+    - {fileID: -1811088879, guid: cefe9c0ec107ea349a7aa02a1f387104, type: 3}
+    - {fileID: 1503939578, guid: cefe9c0ec107ea349a7aa02a1f387104, type: 3}
+    - {fileID: 1177564447, guid: cefe9c0ec107ea349a7aa02a1f387104, type: 3}
+  down:
+    idle: {fileID: 1836711751, guid: cefe9c0ec107ea349a7aa02a1f387104, type: 3}
+    walkCycle:
+    - {fileID: -58608345, guid: cefe9c0ec107ea349a7aa02a1f387104, type: 3}
+    - {fileID: 1197432980, guid: cefe9c0ec107ea349a7aa02a1f387104, type: 3}
+    - {fileID: -819244474, guid: cefe9c0ec107ea349a7aa02a1f387104, type: 3}
+  left:
+    idle: {fileID: 36820665, guid: cefe9c0ec107ea349a7aa02a1f387104, type: 3}
+    walkCycle:
+    - {fileID: -1924962204, guid: cefe9c0ec107ea349a7aa02a1f387104, type: 3}
+    - {fileID: 1783414626, guid: cefe9c0ec107ea349a7aa02a1f387104, type: 3}
+    - {fileID: 1623112431, guid: cefe9c0ec107ea349a7aa02a1f387104, type: 3}
+  right:
+    idle: {fileID: 1285368878, guid: cefe9c0ec107ea349a7aa02a1f387104, type: 3}
+    walkCycle:
+    - {fileID: 1453337687, guid: cefe9c0ec107ea349a7aa02a1f387104, type: 3}
+    - {fileID: 36744026, guid: cefe9c0ec107ea349a7aa02a1f387104, type: 3}
+    - {fileID: 64570211, guid: cefe9c0ec107ea349a7aa02a1f387104, type: 3}

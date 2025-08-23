@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c24d1eb828e8542b4d202f06bd9664, type: 3}
+  m_Name: Lamplighter
+  m_EditorClassIdentifier: 
+  characterName: Lamplighter
+  up:
+    idle: {fileID: -1365737205, guid: a0f06e66c23e9c34f81642802ac66837, type: 3}
+    walkCycle:
+    - {fileID: 550824899, guid: a0f06e66c23e9c34f81642802ac66837, type: 3}
+    - {fileID: 527415840, guid: a0f06e66c23e9c34f81642802ac66837, type: 3}
+    - {fileID: -1533358731, guid: a0f06e66c23e9c34f81642802ac66837, type: 3}
+  down:
+    idle: {fileID: 1025311253, guid: a0f06e66c23e9c34f81642802ac66837, type: 3}
+    walkCycle:
+    - {fileID: 766021495, guid: a0f06e66c23e9c34f81642802ac66837, type: 3}
+    - {fileID: -1637576806, guid: a0f06e66c23e9c34f81642802ac66837, type: 3}
+    - {fileID: -1743168658, guid: a0f06e66c23e9c34f81642802ac66837, type: 3}
+  left:
+    idle: {fileID: 1320685755, guid: a0f06e66c23e9c34f81642802ac66837, type: 3}
+    walkCycle:
+    - {fileID: -1214137566, guid: a0f06e66c23e9c34f81642802ac66837, type: 3}
+    - {fileID: 1425327895, guid: a0f06e66c23e9c34f81642802ac66837, type: 3}
+    - {fileID: 1388944796, guid: a0f06e66c23e9c34f81642802ac66837, type: 3}
+  right:
+    idle: {fileID: 1779775871, guid: a0f06e66c23e9c34f81642802ac66837, type: 3}
+    walkCycle:
+    - {fileID: 2009642039, guid: a0f06e66c23e9c34f81642802ac66837, type: 3}
+    - {fileID: -1842141472, guid: a0f06e66c23e9c34f81642802ac66837, type: 3}
+    - {fileID: -237467319, guid: a0f06e66c23e9c34f81642802ac66837, type: 3}

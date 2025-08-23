@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c24d1eb828e8542b4d202f06bd9664, type: 3}
+  m_Name: Prophetbot
+  m_EditorClassIdentifier: 
+  characterName: Prophetbot
+  up:
+    idle: {fileID: -728599372, guid: 959184f499b50ff46920c6c5297180e7, type: 3}
+    walkCycle:
+    - {fileID: -204652172, guid: 959184f499b50ff46920c6c5297180e7, type: 3}
+    - {fileID: -1987523298, guid: 959184f499b50ff46920c6c5297180e7, type: 3}
+    - {fileID: 2001391657, guid: 959184f499b50ff46920c6c5297180e7, type: 3}
+  down:
+    idle: {fileID: -1753819944, guid: 959184f499b50ff46920c6c5297180e7, type: 3}
+    walkCycle:
+    - {fileID: 66671637, guid: 959184f499b50ff46920c6c5297180e7, type: 3}
+    - {fileID: -1296560408, guid: 959184f499b50ff46920c6c5297180e7, type: 3}
+    - {fileID: 774346277, guid: 959184f499b50ff46920c6c5297180e7, type: 3}
+  left:
+    idle: {fileID: 268433842, guid: 959184f499b50ff46920c6c5297180e7, type: 3}
+    walkCycle:
+    - {fileID: 1928041150, guid: 959184f499b50ff46920c6c5297180e7, type: 3}
+    - {fileID: 102109220, guid: 959184f499b50ff46920c6c5297180e7, type: 3}
+    - {fileID: -568012388, guid: 959184f499b50ff46920c6c5297180e7, type: 3}
+  right:
+    idle: {fileID: 1397505279, guid: 959184f499b50ff46920c6c5297180e7, type: 3}
+    walkCycle:
+    - {fileID: 662351264, guid: 959184f499b50ff46920c6c5297180e7, type: 3}
+    - {fileID: 1968373318, guid: 959184f499b50ff46920c6c5297180e7, type: 3}
+    - {fileID: -1146567175, guid: 959184f499b50ff46920c6c5297180e7, type: 3}

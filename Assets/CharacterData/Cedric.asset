@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c24d1eb828e8542b4d202f06bd9664, type: 3}
+  m_Name: Cedric
+  m_EditorClassIdentifier: 
+  characterName: Cedric
+  up:
+    idle: {fileID: -1336284173, guid: 1eb2ed6a53000104ca7bbb1f60ef1324, type: 3}
+    walkCycle:
+    - {fileID: 138350763, guid: 1eb2ed6a53000104ca7bbb1f60ef1324, type: 3}
+    - {fileID: -414427935, guid: 1eb2ed6a53000104ca7bbb1f60ef1324, type: 3}
+    - {fileID: 1355490142, guid: 1eb2ed6a53000104ca7bbb1f60ef1324, type: 3}
+  down:
+    idle: {fileID: 1243141086, guid: 1eb2ed6a53000104ca7bbb1f60ef1324, type: 3}
+    walkCycle:
+    - {fileID: -15428615, guid: 1eb2ed6a53000104ca7bbb1f60ef1324, type: 3}
+    - {fileID: 1564903658, guid: 1eb2ed6a53000104ca7bbb1f60ef1324, type: 3}
+    - {fileID: 1925699212, guid: 1eb2ed6a53000104ca7bbb1f60ef1324, type: 3}
+  left:
+    idle: {fileID: -792377252, guid: 1eb2ed6a53000104ca7bbb1f60ef1324, type: 3}
+    walkCycle:
+    - {fileID: 1384843976, guid: 1eb2ed6a53000104ca7bbb1f60ef1324, type: 3}
+    - {fileID: -294225764, guid: 1eb2ed6a53000104ca7bbb1f60ef1324, type: 3}
+    - {fileID: -1478914525, guid: 1eb2ed6a53000104ca7bbb1f60ef1324, type: 3}
+  right:
+    idle: {fileID: -475078515, guid: 1eb2ed6a53000104ca7bbb1f60ef1324, type: 3}
+    walkCycle:
+    - {fileID: -1866454982, guid: 1eb2ed6a53000104ca7bbb1f60ef1324, type: 3}
+    - {fileID: -1980652542, guid: 1eb2ed6a53000104ca7bbb1f60ef1324, type: 3}
+    - {fileID: -18134321, guid: 1eb2ed6a53000104ca7bbb1f60ef1324, type: 3}

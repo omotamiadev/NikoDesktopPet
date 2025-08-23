@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44c24d1eb828e8542b4d202f06bd9664, type: 3}
+  m_Name: Silver
+  m_EditorClassIdentifier: 
+  characterName: Silver
+  up:
+    idle: {fileID: -1643064315, guid: 4dfcaa27b2fd2e74e833e34da00f6ce6, type: 3}
+    walkCycle:
+    - {fileID: -659680492, guid: 4dfcaa27b2fd2e74e833e34da00f6ce6, type: 3}
+    - {fileID: 32420992, guid: 4dfcaa27b2fd2e74e833e34da00f6ce6, type: 3}
+    - {fileID: -1410724270, guid: 4dfcaa27b2fd2e74e833e34da00f6ce6, type: 3}
+  down:
+    idle: {fileID: 811594197, guid: 4dfcaa27b2fd2e74e833e34da00f6ce6, type: 3}
+    walkCycle:
+    - {fileID: 630590703, guid: 4dfcaa27b2fd2e74e833e34da00f6ce6, type: 3}
+    - {fileID: -806417095, guid: 4dfcaa27b2fd2e74e833e34da00f6ce6, type: 3}
+    - {fileID: 304821227, guid: 4dfcaa27b2fd2e74e833e34da00f6ce6, type: 3}
+  left:
+    idle: {fileID: -1504841451, guid: 4dfcaa27b2fd2e74e833e34da00f6ce6, type: 3}
+    walkCycle:
+    - {fileID: -377628255, guid: 4dfcaa27b2fd2e74e833e34da00f6ce6, type: 3}
+    - {fileID: 989098632, guid: 4dfcaa27b2fd2e74e833e34da00f6ce6, type: 3}
+    - {fileID: -409907625, guid: 4dfcaa27b2fd2e74e833e34da00f6ce6, type: 3}
+  right:
+    idle: {fileID: -2100264520, guid: 4dfcaa27b2fd2e74e833e34da00f6ce6, type: 3}
+    walkCycle:
+    - {fileID: -532322172, guid: 4dfcaa27b2fd2e74e833e34da00f6ce6, type: 3}
+    - {fileID: 680642332, guid: 4dfcaa27b2fd2e74e833e34da00f6ce6, type: 3}
+    - {fileID: 822837077, guid: 4dfcaa27b2fd2e74e833e34da00f6ce6, type: 3}
